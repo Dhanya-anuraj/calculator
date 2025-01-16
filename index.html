@@ -10,12 +10,13 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+
 </head>
 <body class="bg-primary">
     <div class="w-100 d-flex justify-content-center align-items-center " style="height: 100vh;">
         <div class="shadow p-4 bg-light rounded-2">
             <h2 class="text-center text-primary">Calculator</h2>
-            <input type="text" id="result" class="rounded-2 mt-2 p-2 pe-5 border border-primary" readonly>
+            <input type="text" id="result"  class="rounded-2 mt-2 p-2 pe-5 border border-primary" readonly>
             <div class="row">
                 <div class="col-3 mt-3"><button onclick="display(7)" class=" btn shadow btn-outline-primary rounded-4 ">7</button></div>
                 <div class="col-3 mt-3"><button onclick="display(8)" class=" btn shadow btn-outline-primary rounded-4 ">8</button></div>
@@ -30,22 +31,22 @@
             </div>
 
             <div class="row">
-                <div class="col-3 mt-3"><button onclick="display(1)" class=" btn shadow btn-outline-primary rounded-4 ">1</button></div>
-                <div class="col-3 mt-3"><button onclick="display(2)" class=" btn shadow btn-outline-primary rounded-4 ">2</button></div>
-                <div class="col-3 mt-3"><button onclick="display(3)" class=" btn shadow btn-outline-primary rounded-4 ">3</button></div>
-                <div class="col-3 mt-3"><button onclick="display('-')" class=" btn shadow btn-primary rounded-4 ">-</button></div>
+                <div class="col-3 mt-3"><button onclick = "display(1)" class=" btn shadow btn-outline-primary rounded-4 ">1</button></div>
+                <div class="col-3 mt-3"><button onclick = "display(2)" class=" btn shadow btn-outline-primary rounded-4 ">2</button></div>
+                <div class="col-3 mt-3"><button onclick = "display(3)" class=" btn shadow btn-outline-primary rounded-4 ">3</button></div>
+                <div class="col-3 mt-3"><button onclick = "display('-')" class=" btn shadow btn-primary rounded-4 ">-</button></div>
             </div>
 
             <div class="row">
-                <div class="col-3 mt-3"><button onclick=" backBtb()" class=" btn  shadow btn-outline-primary rounded-4 "><i class="fa-solid fa-rectangle-xmark"></i></button></div>
+                <div class="col-3 mt-3"><button onclick="backBtn()" class=" btn  shadow btn-outline-primary rounded-4 "><i class="fa-solid fa-rectangle-xmark"></i></button></div>
                 <div class="col-3 mt-3"><button onclick="display(0)" class=" btn  shadow btn-outline-primary rounded-4 ">0</button></div>
-                <div class="col-3 mt-3"><button onclick="display('.')" class=" btn  shadow btn-outline-primary rounded-4 ">.</button></div>
-                <div class="col-3 mt-3"><button onclick="display('+')" class=" btn  shadow btn-primary rounded-4 ">+</button></div>
+                <div class="col-3 mt-3"><button onclick="display('.')"  class=" btn  shadow btn-outline-primary rounded-4 ">.</button></div>
+                <div class="col-3 mt-3"><button onclick="display('+')"  class=" btn  shadow btn-primary rounded-4 ">+</button></div>
             </div>
 
             <div class="row mt-3">
-                <div class="col-6"><button onclick=" clearAll()" class=" btn btn-primary rounded-4 shadow px-5">AC</button></div>
-                <div class="col-6"><button onclick=" equal ()" class=" btn btn-primary rounded-4 shadow px-5">=</button></div>
+                <div class="col-6"><button onclick="clearAll()" class=" btn btn-primary rounded-4 shadow px-5">AC</button></div>
+                <div class="col-6"><button onclick="equal()"  class=" btn btn-primary rounded-4 shadow px-5">=</button></div>
             </div>
     
         </div>
